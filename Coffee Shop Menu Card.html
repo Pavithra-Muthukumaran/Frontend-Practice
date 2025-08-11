@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+        body{
+            background-color:honeydew;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu-container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background:rgb(210, 181, 236);
+            position: relative;
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Cappuccino.jpg);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;            
+        }
+        .menu-image{
+            text-align: center;
+            background: rgba(134, 7, 254, 0.548);
+            color: #fff;
+            padding: 40px 20px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            position: relative;
+        }
+        .coffee-icon{
+            width: 80px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 10%;
+        }
+        .menu-image h2{
+            font: size 20px;
+            font-weight: 600;
+            font-family: "Dancing Script", cursive;
+        }
+        .menu-section {
+            border: transparent;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .column{
+            width: 45%;
+            padding: 10px; 
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 10px; 
+            margin-bottom: 20px;
+        }
+        .menu-section h5{
+            font-style: oblique;
+            font-family:"Playfair Display", serif;
+            text-decoration: underline;
+            color: rgb(13, 12, 13);
+            font-weight: 900;
+        }
+        dl{
+            list-style: none;
+            padding: 0;
+            color: rgba(255,255,255,0.8);
+        }
+        dt{
+            margin-top: 18px;
+            font-family: 'Open Sans', sans-serif;;
+        }
+        dd{
+            font-family: "My Soul", cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-image">
+            <img src="D:\Fullstack Course\HTML/Coffee.jpg" alt="Coffee" class="coffee-icon">
+            <h2>VP CAFE</h2>
+        </div>   
+     <div class="menu-section">
+        <div class="column">
+    <ul><h5>HOT COFFEE</h5>
+    <dl>
+        <dt>Black Coffee .............. Rs.15.00</dt>
+        <dd>(Arabica Coffee, Robusta Coffee)</dd>
+        <dt>Cappuccino .............. Rs.50.00</dt>
+        <dd>(Two Shot espresso steamed with milk foam )</dd>
+        <dt>Espresso .............. Rs.50.00</dt>
+        <dd>(Arabica or Robusta Coffee)</dd>
+        <dt>Cafe Latte .............. Rs.50.00</dt>
+        <dd>(One shot espresso steamed with milk foam)</dd>
+        <dt>Americano .............. Rs.50.00</dt>
+        <dd>(Arabica Coffee, Robusta Coffee)</dd>
+    </dl></ul>
+    <ul><h5>ICE COFFEE</h5>
+    <dl>
+        <dt>Ice Coffee .............. Rs.30.00</dt>
+        <dd>(Arabica or Robusta Coffee, Sugar)</dd>
+        <dt>Ice Mocha Coffee .............. Rs.50.00</dt>
+        <dd>(Dark chocolate with espresso and milk )</dd>
+        <dt>Iced Pumpkin Latte .............. Rs.50.00</dt>
+        <dd>(Espresso and real pumpkin served with milk over ice)</dd>
+        <dt>Iced Americano .............. Rs.50.00</dt>
+        <dd>(Rich espresso chilled over ice)</dd>
+    </dl></ul>
+    </div>
+    <div class="column">
+    <ul><h5>BAKERY</h5>
+    <dl>
+        <dt>Cup Cake .............. Rs.25.00</dt>
+        <dd>(Strawberry, Chocolate, Vanila)</dd>
+        <dt>Donuts .............. Rs.35.00</dt>
+        <dd>(Chocolate, Strawberry, Blueberry)</dd>
+        <dt>Croissant .............. Rs.40.00</dt>
+        <dd>(Plain, Cheese, Chocolate)</dd>
+        <dt>Danish .............. Rs.50.00</dt>
+        <dd>(Apple, Lemon, Raspeberry)</dd>
+        <dt>Brownies .............. Rs.60.00</dt>
+        <dd>(Chocolate, Walnut)</dd>
+    </dl></ul>
+    <ul><h5>SNACKS</h5>
+    <dl>
+        <dt>French Fries .............. Rs.20.00</dt>
+        <dd>(French Potato)</dd>
+        <dt>Chicken Buritto .............. Rs.35.00</dt>
+        <dd>(Chicken, egg and cheese wrapped in a roasted red pepper tortilla)</dd>
+    </dl></ul>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
